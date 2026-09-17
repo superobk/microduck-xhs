@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "date": "2026-09-18",
+    "title": "养机械鸭，先给它查视力",
+    "body_chars": 417,
+    "title_chars": 11,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2026-09-20",
+    "title": "摄像头黑屏，先别怪排线",
+    "body_chars": 420,
+    "title_chars": 11,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S1",
+      "S3"
+    ]
+  },
+  {
+    "id": 3,
+    "date": "2026-09-22",
+    "title": "找到video0，不等于看见鸭",
+    "body_chars": 419,
+    "title_chars": 15,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S1",
+      "S3",
+      "S4"
+    ]
+  },
+  {
+    "id": 4,
+    "date": "2026-09-24",
+    "title": "能出图，为什么还不能上鸭",
+    "body_chars": 397,
+    "title_chars": 12,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S3",
+      "S4",
+      "S10"
+    ]
+  },
+  {
+    "id": 5,
+    "date": "2026-09-26",
+    "title": "鸭没摔，是窗口先摔了",
+    "body_chars": 482,
+    "title_chars": 10,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S5",
+      "S6"
+    ]
+  },
+  {
+    "id": 6,
+    "date": "2026-09-28",
+    "title": "14个动作，怎么装15颗舵机",
+    "body_chars": 395,
+    "title_chars": 14,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6",
+      "S7"
+    ]
+  },
+  {
+    "id": 7,
+    "date": "2026-09-30",
+    "title": "鸭子的脑子，接口不能猜",
+    "body_chars": 415,
+    "title_chars": 11,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6",
+      "S8"
+    ]
+  },
+  {
+    "id": 8,
+    "date": "2026-10-02",
+    "title": "让鸭走两步，不算我训的",
+    "body_chars": 404,
+    "title_chars": 11,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6",
+      "S7"
+    ]
+  },
+  {
+    "id": 9,
+    "date": "2026-10-04",
+    "title": "鸭子不走，也可能在得高分",
+    "body_chars": 406,
+    "title_chars": 12,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6",
+      "S9"
+    ]
+  },
+  {
+    "id": 10,
+    "date": "2026-10-06",
+    "title": "一千只鸭，是怎样练出来的",
+    "body_chars": 427,
+    "title_chars": 12,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6"
+    ]
+  },
+  {
+    "id": 11,
+    "date": "2026-10-08",
+    "title": "别只存视频，鸭也要写日记",
+    "body_chars": 418,
+    "title_chars": 12,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6",
+      "S9"
+    ]
+  },
+  {
+    "id": 12,
+    "date": "2026-10-10",
+    "title": "别只挑那只走得最好的鸭",
+    "body_chars": 411,
+    "title_chars": 11,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6",
+      "S9"
+    ]
+  },
+  {
+    "id": 13,
+    "date": "2026-10-12",
+    "title": "上真机前，先冻结鸭的大脑",
+    "body_chars": 404,
+    "title_chars": 12,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6",
+      "S8"
+    ]
+  },
+  {
+    "id": 14,
+    "date": "2026-10-14",
+    "title": "不是每块小板，都能直接替",
+    "body_chars": 413,
+    "title_chars": 12,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S11",
+      "S12"
+    ]
+  },
+  {
+    "id": 15,
+    "date": "2026-10-16",
+    "title": "代码写7.4V，舵机敢接吗",
+    "body_chars": 429,
+    "title_chars": 13,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S13"
+    ]
+  },
+  {
+    "id": 16,
+    "date": "2026-10-18",
+    "title": "第一颗舵机，先别让它动",
+    "body_chars": 407,
+    "title_chars": 11,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S13",
+      "S14"
+    ]
+  },
+  {
+    "id": 17,
+    "date": "2026-10-20",
+    "title": "鸭往左歪，IMU说往右？",
+    "body_chars": 388,
+    "title_chars": 12,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6",
+      "S11"
+    ]
+  },
+  {
+    "id": 18,
+    "date": "2026-10-22",
+    "title": "终于拼鸭，为什么还不通电",
+    "body_chars": 401,
+    "title_chars": 12,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S7",
+      "S11",
+      "S13"
+    ]
+  },
+  {
+    "id": 19,
+    "date": "2026-10-24",
+    "title": "鸭子首站，先有安全绳",
+    "body_chars": 393,
+    "title_chars": 10,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6",
+      "S13"
+    ]
+  },
+  {
+    "id": 20,
+    "date": "2026-10-26",
+    "title": "40天养鸭，不交假毕业照",
+    "body_chars": 438,
+    "title_chars": 12,
+    "method_copy_ready": true,
+    "gpt_image_generated": false,
+    "cover_kind": "programmatic_technical_illustration",
+    "refs": [
+      "S6"
+    ]
+  }
+]
