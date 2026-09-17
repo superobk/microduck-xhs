@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Microduck unified-contract transition",
+  "type": "object",
+  "description": "Template for a 61D/14D unified contract. Update explicitly for other contracts. A schema pass is not proof of measurement.",
+  "required": [
+    "provenance",
+    "run_id",
+    "episode_id",
+    "env_id",
+    "step",
+    "t_sim_s",
+    "seed",
+    "policy_sha256",
+    "config_sha256",
+    "observation",
+    "action",
+    "reward",
+    "next_observation",
+    "terminated",
+    "truncated"
+  ],
+  "properties": {
+    "provenance": {
+      "enum": [
+        "measured",
+        "synthetic"
+      ]
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "episode_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "env_id": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "step": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "t_sim_s": {
+      "type": "number"
+    },
+    "seed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "policy_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "config_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "reward": {
+      "type": "number"
+    },
+    "terminated": {
+      "type": "boolean"
+    },
+    "truncated": {
+      "type": "boolean"
+    },
+    "observation": {
+      "type": "array",
+      "minItems": 61,
+      "maxItems": 61,
+      "items": {
+        "type": "number"
+      }
+    },
+    "action": {
+      "type": "array",
+      "minItems": 14,
+      "maxItems": 14,
+      "items": {
+        "type": "number"
+      }
+    },
+    "next_observation": {
+      "type": "array",
+      "minItems": 61,
+      "maxItems": 61,
+      "items": {
+        "type": "number"
+      }
+    }
+  }
+}

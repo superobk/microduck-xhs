@@ -1,0 +1,2 @@
+# Optional PNG renderer. Standard-library build produces SVG and offline HTML without this.
+CairoSVG==2.8.2

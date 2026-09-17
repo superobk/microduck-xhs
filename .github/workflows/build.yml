@@ -1,0 +1,46 @@
+name: Build publication packs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'content/series.py'
+      - 'tools/**'
+      - '.github/workflows/build.yml'
+permissions:
+  contents: write
+concurrency:
+  group: publication-main
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout reviewed source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4 verified 2026-09-17
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Install local rendering dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-cairosvg python3-pil fonts-noto-cjk
+      - name: Build and validate publication artifacts only
+        run: |
+          /usr/bin/python3 tools/build.py --png
+          /usr/bin/python3 tools/test_project.py
+          /usr/bin/python3 tools/contact_sheet.py
+          /usr/bin/python3 -m compileall -q tools content
+          bash -n setup.sh tools/camera_probe.sh
+      - name: Commit generated files to main without force
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add posts assets/covers assets/prompts assets/GPT_IMAGE_PROMPTS.md assets/cover-contact-sheet.jpg assets/gpt-image/status.json content/catalog.json CONTENT_PLAN.md ALL_POSTS.md publisher.html status.json
+          if git diff --cached --quiet; then
+            echo 'Generated files already current.'
+          else
+            git commit -m 'build: render twenty publication packs and technical covers'
+            git push origin HEAD:main
+          fi

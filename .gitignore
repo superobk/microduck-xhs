@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+evidence/raw/**
+!evidence/raw/.gitkeep
+*.onnx
+*.pt
+*.pth
+*.mp4
+*.mov
+dist/
+.DS_Store
